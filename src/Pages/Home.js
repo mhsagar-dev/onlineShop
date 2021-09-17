@@ -1,10 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Banner from '../components/Banner';
+import NavCom from '../components/NavCom';
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            <NavCom/>
+            <Banner></Banner>
         </div>
     );
 };
