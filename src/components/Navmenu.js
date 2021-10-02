@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import { Badge } from "@material-ui/core";
 import { ShoppingCartOutlined } from "@material-ui/icons";
-
-const NavCom = () => {
+import { Badge } from "@material-ui/core";
+const Navmenu = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -17,7 +16,7 @@ const NavCom = () => {
             <Nav.Link as={Link} to={"/dashboard"}>Dashboard</Nav.Link>
             <Nav.Link as={Link} to={"/login"}>Login</Nav.Link>
             <Nav.Link>
-            <Badge badgeContent={1} color="error">
+            <Badge badgeContent={99} color="secondary">
               <ShoppingCartOutlined />
             </Badge>
             </Nav.Link>
@@ -30,6 +29,6 @@ const NavCom = () => {
   );
 };
 
-export default NavCom;
+export default Navmenu;
 
 

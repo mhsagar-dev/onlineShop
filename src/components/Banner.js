@@ -3,7 +3,8 @@ import foodPic from '../images/food.png'
 
 const Banner = () => {
     return (
-        <div className='container '>
+        <div className='bg-light'>
+            <div className='container'>
             <main style={{ height: '540px' }} className="row d-flex align-items-center">
                 <div className="col-md-4 offset-md-1">
                     <h1>
@@ -15,9 +16,10 @@ const Banner = () => {
                     <button className='btn btn-primary rounded-pill'>Start Your Journey</button>
                 </div>
                 <div className="col-md-6">
-                    <img className='img-fluid' src={foodPic} alt="" />
+                    <img className='img-fluid rounded' src={foodPic} alt="" />
                 </div>
             </main>
+            </div>
         </div>
 
     );

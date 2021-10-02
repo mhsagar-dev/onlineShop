@@ -1,12 +1,14 @@
 import React from 'react';
 import Banner from '../components/Banner';
-import NavCom from '../components/NavCom';
+import Foods from '../components/Foods';
+import Navmenu from '../components/Navmenu';
 
 const Home = () => {
     return (
-        <div>
-            <NavCom/>
+        <div className=''>
+            <Navmenu></Navmenu>
             <Banner></Banner>
+            <Foods></Foods>
         </div>
     );
 };
